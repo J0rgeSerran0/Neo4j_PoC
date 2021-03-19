@@ -37,3 +37,26 @@ MATCH (p:Person), (pos:WorkPlace) WHERE p.department = pos.name CREATE (p)-[r:WO
 After execute all these commands, a new diagram will be created inside of Neo4j.
 
 ![](../documentation/images/Neo4j_PoC_Final_Diagram.png?raw=true)
+
+# Other commands
+
+To show the nodes, relations, etc, execute the command:
+
+```charp
+MATCH (n) RETURN n
+```
+
+To delete the relations, nodes, etc... execute the command:
+
+```charp
+MATCH (a)-[r]-(b) DELETE r, a, b
+```
+
+And/Or:
+
+```charp
+MATCH (n) DELETE n
+```
+
+
+
