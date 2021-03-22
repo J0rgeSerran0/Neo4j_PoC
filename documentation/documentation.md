@@ -1,4 +1,4 @@
-# Functional and Technical information of this simple PoC
+# Functional and Technical information of this PoC
 
 We want to create some nodes in Neo4j, and one relation between them
 
