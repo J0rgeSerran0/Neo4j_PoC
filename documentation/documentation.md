@@ -12,7 +12,7 @@ The diagram can be found in the documentation folder [Neo4j_PoC.drawio](../docum
 
 Here we have two entities as *WorkPlace* (Marketing and IT) and four entities as *Person* with two properties, a name and a department (Mary working in the Marketing workplace, and John, Mike and Rose working in the IT workplace).
 
-Each entity will a node, so we will have to execute the [Cypher](https://neo4j.com/developer/cypher/) commands.
+Each entity will be a node, so we will have to execute the [Cypher](https://neo4j.com/developer/cypher/) commands.
 
 To create each node:
 
