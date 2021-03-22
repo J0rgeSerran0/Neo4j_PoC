@@ -17,4 +17,4 @@ This sample uses **.NET 5** and the driver [**Neo4j.Driver**](https://www.nuget.
 
 ## Details about this PoC
 
-[**Functional and Technical information of this simple PoC**](documentation/documentation.md)
+[**Functional and Technical information of this PoC**](documentation/documentation.md)
